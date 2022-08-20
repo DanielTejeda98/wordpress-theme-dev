@@ -9,7 +9,7 @@
   if(have_posts()):
     while(have_posts(  )):
       the_post();
-      //do our stuff
+      get_template_part('theme-parts/post/content');
     endwhile;
   endif;
  get_footer();
